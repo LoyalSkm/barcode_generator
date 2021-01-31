@@ -1,0 +1,18 @@
+{
+  "name": "bwip-js-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node -e \"(async () => console.log(await require('./index').handler({text: '[)>^03001^02996152382802^029840^029001^0291Z00004951^029UPSN^02906X610^029159^0291234567^0291/1^029^029Y^029634 ALPHA DR^029PITTSBURGH^029PA^029^004', bcid: 'maxicode'})))();\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.831.0",
+    "bwip-js": "^2.0.11"
+  }
+}
