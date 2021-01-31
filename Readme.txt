@@ -10,6 +10,7 @@ VALUE : ct6GObkgTy8qTOzyLyVFl85f8wYpvKgx34xCJXO8
     "text": "2112345678900",
 }
 
+//asdsadasdasdad
 //list of barcodes and text samples:
 var symdesc = {
 	"ean5":{ sym:"ean5",desc:"EAN-5 (5 digit addon)",text:"90200",opts:"includetext guardwhitespace" },
