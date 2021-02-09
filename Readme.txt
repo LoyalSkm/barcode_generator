@@ -1,16 +1,23 @@
 
 //To send data to generate a barcode or QR code, use the POST method at the link:
 
-//https://f1c5ik5dv0.execute-api.eu-central-1.amazonaws.com/myRest/barcode_generator
+//https://movycc8mx1.execute-api.eu-central-1.amazonaws.com/default/QRCodeBarGeneration
 //Request body must contain text and burcode identifier:
+
 KEY : x-api-key 
-VALUE : ct6GObkgTy8qTOzyLyVFl85f8wYpvKgx34xCJXO8
+VALUE : ----
+
 {   
-    "bcid": "ean13"
-    "text": "2112345678900",
+    "bcid"		: "string", 		//required parametr
+    "text"		: "string", 		//required parametr
+    "projectId"	: "string" 	//required parametr
+    "width"		:	"integer"	//
+    "height"	:	"integer"	//
+    "scale"		:	"integer"	//Sets both the x-axis and y-axis scaling factors. Must be an integer > 0.
+    "barcolor"	:	"string" //color of barcode
+    "textcolor"	: "string"// color of text under the barcode
 }
 
-//asdsadasdasdad
 //list of barcodes and text samples:
 var symdesc = {
 	"ean5":{ sym:"ean5",desc:"EAN-5 (5 digit addon)",text:"90200",opts:"includetext guardwhitespace" },
