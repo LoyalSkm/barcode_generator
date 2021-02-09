@@ -2,11 +2,12 @@
 //To send data to generate a barcode or QR code, use the POST method at the link:
 
 //https://movycc8mx1.execute-api.eu-central-1.amazonaws.com/default/QRCodeBarGeneration
-//Request body must contain text and burcode identifier:
 
+//Еhe request body headers must contain:
 KEY : x-api-key 
 VALUE : ----
 
+//The request body must contain the following identifiers:
 {   
     "bcid"		: "string", 		//required parametr
     "text"		: "string", 		//required parametr
