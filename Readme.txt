@@ -10,12 +10,12 @@ VALUE : ----
 {   
     "bcid"		: "string", 		//required parametr
     "text"		: "string", 		//required parametr
-    "projectId"	: "string" 	//required parametr
+    "projectId"		: "string" 	//required parametr
     "width"		:	"integer"	//
-    "height"	:	"integer"	//
+    "height"		:	"integer"	//
     "scale"		:	"integer"	//Sets both the x-axis and y-axis scaling factors. Must be an integer > 0.
-    "barcolor"	:	"string" //color of barcode
-    "textcolor"	: "string"// color of text under the barcode
+    "barcolor"		:	"string" //color of barcode
+    "textcolor"		: "string"// color of text under the barcode
 }
 
 //list of barcodes and text samples:
